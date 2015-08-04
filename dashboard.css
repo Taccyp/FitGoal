@@ -1,0 +1,27 @@
+h1{
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+}
+
+body{
+	background-color: #2B9DD7;
+	font-family: 'Slabo 27px', serif;
+	font-size: 1.2em;
+	color: white;	
+}
+
+section{
+	text-align: center;
+}
+
+#nutrition{
+	border-radius: 10px;
+}
+
+#feet,#inches,#miles,#current_weight,#target_weight{
+	width: 40px;
+}
+
+input{
+		border-radius: 10px;
+}
