@@ -8,27 +8,31 @@
 		<meta charset="UTF-8">
 	</head>
 	<body>
-		<h1>Elder's Dashboard</h1>
-		<section>
-			<div class="calorie-counter">
-				<h3>Tell us more about yourself</h3>
-				<form id='nutrition'>
-				<div id="nutrition_info">
-				Sex:<br>
-				<select>
-					<option value="Male">Male</option>
-					<option value="Female">Female</option>
-				</select>
-				<br><br>
-				Current Height:<br><br>
-				<input type="text" name="feet" id="feet">Feet: <input type="text" name="inches" id="inches">Inches<br><br>
-				Weight (lbs):<br><br>
-				Current Weight: <input type="text" name="weight" id="current_weight"><br>Target Weight: <input type="text" name="weight" id="target_weight">
-				</form><br><br>
-				<h4>Distance Run</h4>
-				<input type='text' name='miles' id='miles'>(miles)
-				</div>
+		<div class="dashboard">
+			<h1>Elder's Dashboard</h1>
+			<div id="signout">
+				<a href="#">Sign Out</a>
 			</div>
-		</section>
+			<section>
+					<h3>Tell us more about yourself</h3>
+					<form id='personal_info'>
+					Sex:<br>
+					<select>
+						<option value="Male">Male</option>
+						<option value="Female">Female</option>
+					</select>
+					<br><br>
+					Age:
+					<input type="text" name="age" id="age"><br><br>
+					Current Height:<br><br>
+					<input type="text" name="feet" id="feet">Feet: <input type="text" name="inches" id="inches">Inches<br><br>
+					Weight (lbs):<br><br>
+					Current Weight: <input type="text" name="weight" id="current_weight"><br><br>Target Weight: <input type="text" name="weight" id="target_weight">
+					<br><br>
+					<h4>Distance Run</h4>
+					<input type='text' name='miles' id='miles'>(miles) Per:<input type="text" name="days" id="days">Day(s)
+					</form>
+			</section>
+		</div>
 	</body>
 </html>

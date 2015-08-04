@@ -14,14 +14,28 @@ section{
 	text-align: center;
 }
 
-#nutrition{
+#personal_info{
 	border-radius: 10px;
 }
 
-#feet,#inches,#miles,#current_weight,#target_weight{
+#feet,#inches,#miles,#current_weight,#target_weight,#age,#days{
 	width: 40px;
+	font-family: 'Roboto', sans-serif;	
+	font-weight: bold;
+	font-size: 20px;
 }
 
 input{
 		border-radius: 10px;
+}
+
+#signout{
+	text-align: right;
+	margin-top: -60px;
+	padding: 10px;
+}
+
+a{
+	text-decoration: none;
+	color: white;
 }
